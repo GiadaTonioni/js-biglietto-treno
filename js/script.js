@@ -16,10 +16,10 @@ console.log (risultato);
 
 //variazione costo biglietto se minore di 18 o maggiore di 65 anni
 if (age <= 17) {
-    risultato = (km * prezzo - 20 / 100)
+    risultato = risultato -(km * prezzo / 100 * 20)
     console.log (risultato)
 } else if (age >= 65) {
-    risultato = (km * prezzo - 40 / 100)
+    risultato = risultato -(km * prezzo / 100 * 40)
     console.log (risultato)
 }
 
